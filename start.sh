@@ -1,7 +1,7 @@
 if [ -z $SOURCE_CODE ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/SarveshModzYT/mdisk.git /mdisk
+  git clone https://github.com/SarveshModzYT/mdisk /mdisk
 else
   echo "Cloning Custom Repo from $SOURCE_CODE "
   git clone $SOURCE_CODE /mdisk
